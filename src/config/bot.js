@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Custom Status", // required by Discord API, not shown in the client
         state: "Tomato Jelly...",     // this is what people actually see
-        type: 3,               // Custom
+        type: 1,               // Custom
       },
     ],
   },
@@ -255,7 +255,7 @@ export const botConfig = {
     archiveCategory: null,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: "1538218667530133615",
   },
 
   // =========================
@@ -378,9 +378,9 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: "1538222794616213564",
     // Channel ID for goodbye messages.
-    defaultGoodbyeChannel: null,
+    defaultGoodbyeChannel: "1538222794616213564",
   },
 
   // =========================
