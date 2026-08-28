@@ -23,7 +23,7 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Marvel AI", // required by Discord API, not shown in the client
+        name: "Lacrimosa AI", // required by Discord API, not shown in the client
         state: "Tomato Jelly?...",     // this is what people actually see
         type: 1,               // Custom
       },
